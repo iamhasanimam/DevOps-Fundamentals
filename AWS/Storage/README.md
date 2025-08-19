@@ -107,4 +107,41 @@ Amazon S3 supports a wide range of use cases for both cloud-based applications a
 
 #### Amazon S3 Storage Classes and S3 Lifecycle
 
-##### Amazon S3 standard
+S3 Lifecycle
+
+To avoid manually managing your object storage tier configurations, you can use S3 Lifecycle configurations to automate the process. When you define a lifecycle configuration for an object or group of objects, you can choose to automate between two types of actions, as follows:
+
+Transition actions: define when objects should transition to another storage class.
+
+Expiration actions: define when objects expire and should be permanently deleted.
+
+For example, you might transition objects to S3 Standard-IA storage class 30 days after you create them. Or you might archive objects to the S3 Glacier Deep Archive storage class 1 year after creating them.
+
+
+#### Amazon Elastic File System (EFS)
+
+Amazon EFS is a fully managed, scalable file storage service for use with AWS cloud services and on-premises resources. It operates using the Linux Network File System (NFS) protocol, and automatically scales to petabytes as you add or remove files without disrupting applications. EFS is designed to support a wide variety of workloads and can be accessed by multiple EC2 instances simultaneously.
+
+##### Amazon EFS storage classes
+
+With Amazon EFS, you can create and configure file systems quickly without any minimum fee or setup cost. You pay only for the storage used and you can choose from a range of storage classes designed to fit your use case.
+
+The EFS Standard and EFS Standard-Infrequent Access (Standard-IA) storage classes offer Multi-AZ resilience and the highest levels of durability and availability. They have a higher cost associated with them due to higher availability and durability.
+
+The EFS One Zone and EFS One Zone-Infrequent Access (EFS One Zone-IA) provide additional savings by saving your data in a single Availability Zone. By using just one Availability Zone, you can reduce your storage costs when compared to the Standard EFS storage classes.
+
+The EFS Archive storage class is cost-optimized for data that is accessed only a few times a year or less and that does not need the sub-millisecond latencies of EFS Standard. EFS Archive offers a storage price up to 50% lower compared to EFS Infrequent Access, providing a more cost-optimized experience for cold, rarely-accessed data.
+
+#### Amazon FSx for Windows File Server
+
+Amazon FSx for Windows File Server provides fully managed shared storage built on Windows Server. It delivers a wide range of data access, data management, and administrative capabilities.
+
+Use cases include the following:
+
+Migrate Windows file servers to AWS.
+
+Accelerate hybrid workloads.
+
+Reduce SQL Server deployment cost.
+
+Streamline virtual desktops and streaming.
