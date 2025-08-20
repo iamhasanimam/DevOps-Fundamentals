@@ -145,3 +145,15 @@ Accelerate hybrid workloads.
 Reduce SQL Server deployment cost.
 
 Streamline virtual desktops and streaming.
+
+#### AWS Storage Gateway
+
+Storage Gateway is a hybrid cloud storage service that makes it possible to seamlessly integrate on-premises environments with AWS Cloud storage. You can use it to extend your local storage to the cloud while maintaining low-latency access to frequently used data.
+
+You can use Storage Gateway to streamline storage management and reduce costs for practical hybrid cloud storage use cases. These include moving backups to the cloud, using on-premises file shares backed by cloud storage, and providing low-latency access to data in AWS for on-premises applications.
+
+#### Disaster Recovery
+
+Elastic Disaster Recovery replicates critical workloads to AWS with minimal downtime. Your servers' block-level data is continuously replicated to AWS, making it ideal for uses that require robust disaster recovery solutions. It supports both physical and virtual servers to enable rapid recovery during disruptions, which is particularly valuable for industries like healthcare where system availability is crucial.
+
+You can use Elastic Disaster Recovery to reduce downtimes and data loss while eliminating the costs associated with maintaining secondary data centers. It also offers non-disruptive disaster recovery testing, meaning it's capable of quickly launching recovery instances when needed.
