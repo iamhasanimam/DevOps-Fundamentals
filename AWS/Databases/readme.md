@@ -32,7 +32,7 @@ Aurora is a managed relational database designed to help reduce unnecessary I/O 
 
 Use cases
 Some examples of practical use cases for Aurora are gaming applications, media and content management, and real-time analytics.
-+
+
 #### Non relational Database
 
 NoSQL databases use flexible data schemas for storing and retrieving many different types of information. In this lesson, you will explore the benefits and use cases of the NoSQL database service Amazon DynamoDB.
@@ -66,3 +66,15 @@ ElastiCache is a fully managed in-memory caching service that was built to help 
 
 Use cases
 Some examples of practical use cases for ElastiCache are session data management, database query enhancement, and gaming leaderboards.
+
+#### Amazon DocumentDB
+
+A MongoDB-compatible document database service designed for mission-critical workloads with automatic scaling
+
+#### Amazon Backup
+
+A centralized service for automating and managing data backups across AWS services and on-premises resources
+
+#### Amazon Neptune
+
+A graph database service optimized for storing and querying highly connected data relationships
