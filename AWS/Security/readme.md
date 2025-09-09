@@ -77,6 +77,7 @@ Encryption is a key component of data protection. Let's review how data encrypti
 Data encryption works like a lock and key mechanism. If you have the right key, you can access the encrypted data. Otherwise, you cannot access the data. For example, let's say you are protecting a customer's profile. An encryption key is used to turn the profile information into a randomized set of characters. A decryption key is used to access the customer's information, such as their name, only when it's needed by your application.
 
 ### Types of data encryption
+
 Data encryption comes in the following two forms: 
 
 Data encryption at rest: The data is idle and not moving, like when it's stored in a database.
@@ -110,8 +111,14 @@ AWS data protection services
 AWS also offers the following services to help protect your data.
 
 
-AWS Key Management Service (AWS KMS)
+#### AWS Key Management Service (AWS KMS)
 
 You can use AWS KMS to create and manage cryptographic keys. These keys can then be used to encrypt and decrypt your data. You can also control the use of keys across a wide range of services and in your applications. For example, you can specify which IAM users and roles can manage keys. Your keys never leave AWS KMS, and you can temporarily disable them so they can no longer be used.
 
 A cryptographic key is a random string of digits used for locking (encrypting) and unlocking (decrypting) data
+
+#### AWS Certificate Manager (ACM)
+
+ACM centralizes the management of your SSL/TLS certificates that provide data encryption in transit. It can be used to protect various AWS services and your connected on-premises resources.
+
+SSL/TLS certificates are used to establish encrypted network connections from one system to another.
