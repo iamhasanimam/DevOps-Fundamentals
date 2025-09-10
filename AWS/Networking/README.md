@@ -56,3 +56,5 @@ You've seen a basic VPN and AWS Direct Connect setup in previous lessons. Here i
 To learn more about using Direct Connect for failover and to aggregate bandwidth, choose each of the following four numbered markers.
 
 ![alt text](image-4.png)
+
+![alt text](image-5.png)
