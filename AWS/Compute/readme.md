@@ -1,7 +1,5 @@
 # AWS Compute Services – Notes & Documentation  
 
----
-
 ## 📌 Objectives  
 - Understand the types of compute services AWS provides.  
 - Explore **scalability, elasticity, and serverless computing**.  
