@@ -86,4 +86,6 @@ This would show the website
 local : ![alt text](image-5.png)
 worldwide : ![alt text](image-4.png)
 
-We need to allow 0.0.0.0/
+We need to allow 0.0.0.0/80 to make it work for nginx as people will hit that port only 
+
+We will use 443 
