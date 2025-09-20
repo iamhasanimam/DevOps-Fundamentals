@@ -1,10 +1,10 @@
-Nginx : Enginex : Nginx was initially launched as high performance web server to server static content
+## Nginx 
+Enginex : Nginx was initially launched as high performance web server to server static content
 
 It is used for 
-
-Reverse Proxy 
-Load Balancer
-Http Caching
+- Reverse Proxy 
+- Load Balancer
+- Http Caching
 
 
 ### Using Nginx as web server
@@ -31,7 +31,7 @@ Then we need to do ` sudo systemctl reload nginx` to make it effective
 
 For validating nginx ` sudo nginx -t`
 
-#### Rerverse Proxy 
+### Using Nginx as Reverse Proxy 
 
 What is a reverse proxy
 
@@ -83,9 +83,12 @@ sudo systemctl reload nginx
 
 This would show the website 
 
-local : ![alt text](image-5.png)
-worldwide : ![alt text](image-4.png)
+local : 
 
-We need to allow 0.0.0.0/80 to make it work for nginx as people will hit that port only 
+![alt text](image-5.png)
 
-We will use 443 
+worldwide :
+
+![alt text](image-4.png)
+
+We need to allow 0.0.0.0/80,443 in SG of AWS to make it work for nginx as users hit that port
