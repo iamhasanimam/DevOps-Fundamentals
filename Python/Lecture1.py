@@ -32,7 +32,7 @@ print(type(j))
 c = range(5)
 print(c)
 
-x1 = {"apple" : "Mera", "bananan":"mera", "mango":"tera"}
+x1 = {"email" : "example@email.com", "name":"Hasan"}
 print(x1.keys())
 print(x1.values())
 
